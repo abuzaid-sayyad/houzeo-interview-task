@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel__prev{
+    width: 22px !important;
+    height: 22px !important;
+    left: -14px !important;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    border: 1px solid #AFAFAF !important;
+}
+.carousel__next{
+    width: 22px !important;
+    height: 22px !important;
+    right: -14px !important;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    border: 1px solid #AFAFAF !important;
+}
+.schedule-showing .carousel__slide{
+    padding: 0 6px;
+}
+.bg-grd-alpha{
+    background: transparent linear-gradient(270deg, #0E5293 0%, #2876C1 100%) 0% 0% no-repeat padding-box;
+}
