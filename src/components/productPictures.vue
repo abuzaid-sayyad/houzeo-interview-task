@@ -45,10 +45,10 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
     <div class="relative">
       <div class="flex gap-2 rounded-lg overflow-hidden mb-6">
         <div class="w-full">
-          <img :src="images[0].url" class="w-full object-cover h-full" alt="">
+          <img :src="images[0].url" class="w-full object-cover h-full" alt="First Image">
         </div>
         <div class="w-54 md:grid grid-cols-1 gap-2 flex-shrink-0 hidden">
-          <img v-for="(image, index) in images.slice(1, 3)" :key="index" :src="image.url" class="w-full h-50 object-cover" alt="First Home Image">
+          <img v-for="(image, index) in images.slice(1, 3)" :key="index" :src="image.url" class="w-full h-50 object-cover" alt="Home Image">
         </div>
       </div>
       <button class="bg-white hover:bg-gray-100 transition-shadow hover:shadow-3xl rounded-lg border border-black text-black text-sm md:text-base md:leading-25 flex items-center py-1 px-2.5 absolute bottom-4 left-4">
@@ -94,7 +94,7 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
     <div class="relative">
       <carousel ref="carousel" :transition="300" v-model="currentSlide">
         <slide v-for="(image, index) in images" :key="index" class="md:h-136.5">
-          <img class="w-full h-full object-cover rounded-lg" :src="image.url" alt="">
+          <img class="w-full h-full object-cover rounded-lg" :src="image.url" alt="Home Images">
         </slide>
         <template #addons>
           <navigation />
