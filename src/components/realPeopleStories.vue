@@ -20,7 +20,7 @@
         },
         {
           userName: 'Daniel Woodrum',
-          location: 'Panama City Beach, FL',
+          location: 'Panama City Beach',
           thumbnail: 'https://dtpwvruv8ddnl.cloudfront.net/home-page-static-assets/daniel.webp',
           videoUrl: 'https://www.youtube.com/embed/irDOGn3J30I?rel=0&autoplay=1&enablejsapi=1',
           showModal: false,
